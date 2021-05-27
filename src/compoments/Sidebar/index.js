@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
 import {
     SidebarContainer,
     Icon,
@@ -19,16 +20,41 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink top='about' onClick={toggle}>
-                            About
+                        <SidebarLink
+                            to='about'
+                            onClick={toggle}
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            osffset={-120}
+                            exact='true'
+                        >About
                         </SidebarLink>
-                        <SidebarLink top='discover' onClick={toggle}>
+                        <SidebarLink to='discover' onClick={toggle}
+                            onClick={toggle}
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            osffset={-120}
+                            exact='true'>
                             Discover
                         </SidebarLink>
-                        <SidebarLink top='services' onClick={toggle}>
+                        <SidebarLink to='services' onClick={toggle}
+                            onClick={toggle}
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            osffset={320}
+                            exact='true'>
                             Services
                         </SidebarLink>
-                        <SidebarLink top='signup' onClick={toggle}>
+                        <SidebarLink to='signup' onClick={toggle}
+                            onClick={toggle}
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            osffset={-120}
+                            exact='true'>
                             Sign Up
                         </SidebarLink>
                     </SidebarMenu>

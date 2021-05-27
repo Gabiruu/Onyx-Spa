@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { IconContext } from 'react-icons/lib'
 import { FaBars } from 'react-icons/fa'
+import { animateScroll as scroll } from 'react-scroll'
 import {
     Nav,
     NavbarContainer,
@@ -13,35 +15,79 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+    const [scrollNav, setscrollNav] = useState(false)
+
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setscrollNav(true)
+        } else {
+            setscrollNav(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    }
+
     return (
         <>
-            <Nav>
-                <NavbarContainer>
-                    <NavLogo to='/'>Dolla</NavLogo>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon>
-                    <NavMenu>
-                        <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='discover'>Discover</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='services'>Services</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='signup'>Signup</NavLinks>
-                        </NavItem>
-                    </NavMenu>
-                    <NavBtn>
-                        <NavBtnLink to='/signin'>
-                            Sign In
+            <IconContext.Provider value={{ color: '#fff' }}>
+                <Nav scrollNav={scrollNav}>
+                    <NavbarContainer>
+                        <NavLogo to='/' onClick={toggleHome}>Onyx</NavLogo>
+                        <MobileIcon onClick={toggle}>
+                            <FaBars />
+                        </MobileIcon>
+                        <NavMenu>
+                            <NavItem>
+                                <NavLinks
+                                    to='about'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    osffset={-80}
+                                >Sobre</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks
+                                    to='discover'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    osffset={-80}
+                                >Logística</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks
+                                    to='services'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    osffset={-80}
+                                >Serviços</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks
+                                    to='signup'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    osffset={-80}
+                                >App</NavLinks>
+                            </NavItem>
+                        </NavMenu>
+                        <NavBtn>
+                            <NavBtnLink to='/signin'>
+                                Sign In
                         </NavBtnLink>
-                    </NavBtn>
-                </NavbarContainer>
-            </Nav>
+                        </NavBtn>
+                    </NavbarContainer>
+                </Nav>
+            </IconContext.Provider>
         </>
     )
 }

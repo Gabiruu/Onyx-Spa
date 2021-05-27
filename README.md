@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+<h1 align="center">Projeto feito em React e alguns de seu Hooks</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+![Badge](https://img.shields.io/badge/React-17.0.2-blue)
+![GitHub top language](https://img.shields.io/github/languages/top/gabiruu/Onyx-Spa)
+![GitHub repo size](https://img.shields.io/github/repo-size/gabiruu/Onyx-Spa)
+![GitHub last commit](https://img.shields.io/github/last-commit/gabiruu/Onyx-Spa)
+![GitHub](https://img.shields.io/github/license/gabiruu/Onyx-Spa)
+
+#
+
+</div>
+
+# Tabela de conteúdos
+
+<!--ts-->
+
+- [Descrição](#Descrição)
+- [Features](#Features)
+- [Pré-requisitos](#Pré-requisitos)
+- [Como usar](#como-usar)
+  - [Pre Requisitos](#pre-requisitos)
+  - [PHP](##PHP)
+  - [Mysql](##Mysql)
+- [Tecnologias](#tecnologias)
+<!--te-->
+
+# Descrição
+
+O objetivo desse projeto é colocar em pratica o uso de alguns Hooks do react e aprender mais sobre eles, esses hooks são os seguintes:
+
+- react-dom
+- react-icons
+- react-router-dom
+- react-scripts
+- react-scroll
+- styled-components
+
+# Como usar
+
+# Pré-requisitos
+
+Cerifique-se de ter o [React](https://pt-br.reactjs.org/) e o [Git](https://github.com/) instalado na sua maquina.
+
+## GIT
+
+Com o Git e o React instalado na sua maquina e a URL do projeto em mãos, crie uma pasta para receber o projeto, dentro dela abra o cmd ou powershell e digite os comandos abaixo:
+
+### `git clone https://github.com/Gabiruu/Onyx-Spa`
+
+### `cd Onyx-Spa`
+
+## REACT
+
+Ainda com o cmd ou powershell aberto digite:
+
+### `npm i`
+
+Depois de todos os modulos instalados com o cmd ou powershell digite:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Logo depois o seu navegador padrão irá abrir no enderaço: [http://localhost:3000/](http://localhost:3000/) caso não inicie automaticamente clique no link anterior, pronto a canculadora estará pronta para uso.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Com essas instruções feitas com sucesso, Podemos então começar o uso do projeto.
 
-### `npm test`
+# TECNOLOGIAS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [REACT](https://pt-br.reactjs.org/)
 
-### `npm run build`
+# AUTOR
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="https://github.com/Gabiruu">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/38928677?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Feito por <a href="https://github.com/Gabiruu/" alt="">Gabriel Alves Reis</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📬 Entre em contato!
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Twitter Badge](https://img.shields.io/badge/-@Gabirutts-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Gabirutts)](https://twitter.com/Gabirutts)
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-alves-846b92164/)](https://www.linkedin.com/in/gabriel-alves-846b92164/)
+[![Gmail Badge](https://img.shields.io/badge/-gaalvesreis@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gaalvesreis@gmail.com)](mailto:gaalvesreis@gmail.com)

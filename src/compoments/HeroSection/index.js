@@ -27,10 +27,9 @@ const HeroSection = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>Virtual Banking Made Easy</HeroH1>
+                    <HeroH1>Segurança e rapidez na entrega</HeroH1>
                     <HeroP>
-                        Sign up for a new account today and
-                        receive $250 in credit towards your nex payment.
+                        Trabalhamos com protocolos avançados de segurança desde o envio até a entrega da sua jóia.
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button to="signup"
@@ -38,8 +37,13 @@ const HeroSection = () => {
                             onMouseLeave={onHover}
                             primary='true'
                             dark='true'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            osffset={-80}
+                            exact='true'
                         >
-                            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                            Conheça nosso sistema {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                     </HeroBtnWrapper>
                 </HeroContent>
