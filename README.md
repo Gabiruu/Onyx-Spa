@@ -1,4 +1,4 @@
-<h1 align="center">Projeto feito em React e alguns de seu Hooks</h1>
+<h1 align="center">Projeto feito em React e alguns de seus Hooks</h1>
 
 #
 
