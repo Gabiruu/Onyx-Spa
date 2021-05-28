@@ -20,15 +20,14 @@
 
 - [Descrição](#Descrição)
 - [Features](#Features)
-- [Pré-requisitos](#Pré-requisitos)
 - [Como usar](#como-usar)
-  - [Pre Requisitos](#pre-requisitos)
-  - [Git](##React)
-  - [React](##React)
+  - [Pré-requisitos](#Pré-requisitos)
+  - [Git](##GIT)
+  - [React](##REACT)
 - [Tecnologias](#tecnologias)
 <!--te-->
 
-#Descrição
+# Descrição
 
 O objetivo desse projeto é colocar em pratica o uso de alguns Hooks do react e aprender mais sobre eles, esses hooks são os seguintes:
 
