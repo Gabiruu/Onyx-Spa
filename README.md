@@ -23,12 +23,12 @@
 - [Pré-requisitos](#Pré-requisitos)
 - [Como usar](#como-usar)
   - [Pre Requisitos](#pre-requisitos)
-  - [PHP](##PHP)
-  - [Mysql](##Mysql)
+  - [Git](##React)
+  - [React](##React)
 - [Tecnologias](#tecnologias)
 <!--te-->
 
-# Descrição
+#Descrição
 
 O objetivo desse projeto é colocar em pratica o uso de alguns Hooks do react e aprender mais sobre eles, esses hooks são os seguintes:
 
